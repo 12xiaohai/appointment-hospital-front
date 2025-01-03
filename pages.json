@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/review/review",
+			"style": {
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "pages/consultation/consultation",
+			"style": {
+				"navigationBarTitleText": "在线咨询"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path" : "pages/doctorlist/doctorlist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "医生列表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#dedede",
+		"selectedColor": "#2380ff",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tab-index.png",
+				"selectedIconPath": "static/images/tab-index-current.png"
+			},
+			{
+				"text": "预约",
+				"pagePath": "pages/review/review"
+			},
+			{
+				"text": "在线咨询",
+				"pagePath": "pages/consultation/consultation"
+
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/tab-my.png",
+				"selectedIconPath": "static/images/tab-my-current.png"
+			}
+
+		]
+	},
+	"uniIdRouter": {
+
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@/uni_modules/uni-$1/components/uni-$1.vue"
+		}
+	}
+
+
+
+}

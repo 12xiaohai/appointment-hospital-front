@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "home-head": "../../components/home-head/home-head",
+    "swiper-banner": "../../components/SwiperBanner/SwiperBanner",
+    "announcement-card": "../../components/AnnouncementCard/AnnouncementCard",
+    "announcement-popup": "../../components/AnnouncementPopup/AnnouncementPopup",
+    "function-grid": "../../components/function-grid/function-grid"
+  }
+}

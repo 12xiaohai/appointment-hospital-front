@@ -1,0 +1,1 @@
+<view class="swipper"><swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}" class="picture"><swiper-item><image src="{{a}}" mode="aspectFill" style="width:100%;height:100%"></image></swiper-item><swiper-item><image src="{{b}}" mode="aspectFill" style="width:100%;height:100%"></image></swiper-item></swiper></view>

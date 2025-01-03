@@ -1,0 +1,1 @@
+<view><view bindtap="{{b}}"><uni-search-bar wx:if="{{a}}" u-i="25cb23c2-0" bind:__l="__l" u-p="{{a}}"/></view></view>
