@@ -1,1 +1,0 @@
-<view class="homeHead"><view class="statusBar" style="{{'height:' + a}}"></view><view class="titleBar" style="{{'height:' + b}}"> 中医药馆预约小程序 </view><view bindtap="{{d}}"><uni-search-bar wx:if="{{c}}" u-i="4ba86d46-0" bind:__l="__l" u-p="{{c}}"/></view></view>

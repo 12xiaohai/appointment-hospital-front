@@ -1,1 +1,0 @@
-<view class="announcement" bindtap="{{a}}"><view class="announcement-title">公告</view><view class="announcement-content"> 提前3日开始预约。预约号时段为预计时间，具体就诊时间以现场实际为准… </view></view>
